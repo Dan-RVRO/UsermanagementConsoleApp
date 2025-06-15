@@ -1,0 +1,18 @@
+# Ignore build output directories
+/bin/
+/target/
+
+# Ignore compiled class files
+*.class
+
+# Ignore all log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore a specifics files
+DBUsers1.txt
+pom.xml
+users.txt
+
