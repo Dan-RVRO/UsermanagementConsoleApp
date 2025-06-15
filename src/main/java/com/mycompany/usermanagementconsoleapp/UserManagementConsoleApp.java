@@ -42,11 +42,13 @@ public class UserManagementConsoleApp {
         repository.getAllUsers().forEach(System.out::println);
 
         // Save the current state to a file
+        /*
         try {
-            repository.saveToFile("users.txt");
+            repository.saveToFile("DBUsersOnFile.txt");
             System.out.println("Users saved to file.");
         } catch(IOException e) {
             System.err.println("Error saving to file: " + e.getMessage());
         }
+        */
     }
 }
