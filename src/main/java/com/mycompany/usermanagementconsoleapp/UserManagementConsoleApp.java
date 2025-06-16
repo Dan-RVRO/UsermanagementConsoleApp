@@ -30,8 +30,8 @@ public class UserManagementConsoleApp {
             System.err.println("Error: " + e.getMessage());
         }
         
-        // Use getUser method to retrieve a user with ID 1
-        User retrievedUser = repository.getUser(1);
+        // Use getUser method to retrieve a user with ID 30
+        User retrievedUser = repository.getUser(30);
             if (retrievedUser != null) {
                 System.out.println("Retrieved user with ID 1: " + retrievedUser);
             } else {
